@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+gee_modules/
+gee_repos_raw/
+google-cloud-sdk/
+
+# Service account key (NEVER commit this!)
+service-account-key.json
+*.key.json
+
+# Logs
+logs/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Environment
+.env
+.env.local

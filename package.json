@@ -1,0 +1,36 @@
+{
+  "name": "bulcd-runner",
+  "version": "11.0.0",
+  "description": "Headless Lab Runner for BULC-D Google Earth Engine Analysis",
+  "main": "runner11.js",
+  "bin": {
+    "bulcd-run": "./runner11.js"
+  },
+  "scripts": {
+    "setup": "node setup-gee-repos.js",
+    "setup:scan": "node setup-gee-repos.js --scan-only",
+    "test": "node runner11.js scripts_to_run/BULCD-Caller-v51e.js gee_modules experiments/BULCD-Params.json --dry-run",
+    "run:default": "node runner11.js scripts_to_run/BULCD-Caller-v51f.js gee_modules experiments/BULCD-Params.json --quiet",
+    "validate": "node runner11.js scripts_to_run/BULCD-Caller-v51f.js gee_modules experiments/ --batch --dry-run"
+  },
+  "keywords": [
+    "google-earth-engine",
+    "gee",
+    "bulc-d",
+    "remote-sensing",
+    "change-detection",
+    "headless"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@google/earthengine": "^1.1.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  }
+}
