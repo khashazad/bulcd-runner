@@ -78,5 +78,4 @@ Or use the npm scripts if defined in `package.json`:
 
 ```bash
 npm run run:default   # default params
-npm run batch         # run all experiments in a directory
 ```
