@@ -1,12 +1,5 @@
 ## Installing Dependencies
 
-### Node.js
-
-First install Node.js (LTS recommended) from `https://nodejs.org`, then install project packages:
-
-```bash
-npm install
-```
 
 ### Google Cloud CLI (`gcloud`)
 
@@ -39,6 +32,14 @@ gcloud auth login
 ```bash
 git clone https://github.com/your-org/bulcd-runner.git
 cd bulcd-runner
+```
+
+### Node.js
+
+First install Node.js (LTS recommended) from `https://nodejs.org`, then install project packages:
+
+```bash
+npm install
 ```
 
 If you also need the associated GEE modules locally:
